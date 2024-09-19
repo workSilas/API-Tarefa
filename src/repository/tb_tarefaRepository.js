@@ -14,7 +14,6 @@ export async function consultaTarefa() {
     return registro
 }
 
-
 export async function inserirTarefa(tarefa) {
     let comando = `
         insert 	tb_tarefa (ds_tarefa, nr_ordem, bt_fazendo, dt_cadastro) 

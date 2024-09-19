@@ -18,7 +18,6 @@ export async function consultaMusica() {
     return registro
 }
 
-
 export async function inserirMusica(musica) {
     let comando = `
         insert tb_musica (nm_musica, ds_artista, url_musica, dt_lancamento, qtd_visualizacoes, hr_duracao, bt_destaque, ds_idioma) 

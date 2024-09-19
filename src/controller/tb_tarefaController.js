@@ -2,7 +2,6 @@ import * as db from '../repository/tb_tarefaRepository.js'
 import { Router } from 'express'
 const endpoints = Router()
 
-
 endpoints.get('/tarefa/consulta/', async (req, resp) => {
     try {
         let tarefa = await db.consultaTarefa()
